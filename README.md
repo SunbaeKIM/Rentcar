@@ -96,29 +96,17 @@
 
  - istio를 이용한 CB TEST 
 
-<img src="https://user-images.githubusercontent.com/68719151/93408579-e3ae6f80-f8cf-11ea-8459-ac5f7ef7cd08.JPG"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93408602-ec06aa80-f8cf-11ea-8ee6-a48d9c01a7d7.JPG"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93408584-e5783300-f8cf-11ea-9bf1-982a5e87ebc5.JPG"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93408587-e6a96000-f8cf-11ea-8834-f284425f45ff.JPG"></img>
-
+![캡처61](https://user-images.githubusercontent.com/31124658/93430143-29cdf800-f8fd-11ea-8aed-d9e13b838255.JPG)
+![캡처62](https://user-images.githubusercontent.com/31124658/93430142-29356180-f8fd-11ea-89db-24b3a4e95b22.JPG)
+![캡처63](https://user-images.githubusercontent.com/31124658/93430140-289ccb00-f8fd-11ea-962b-2087151be7f9.JPG)
+![캡처64](https://user-images.githubusercontent.com/31124658/93430139-289ccb00-f8fd-11ea-9f62-386b7255b82c.JPG)
 
 ## 오토스케일 아웃
 
  - Mertric 서버 설치 후 오토스케일링 TEST
  - rent의 deployment.yaml수정 후 배포 
 
-<img src="https://user-images.githubusercontent.com/68719151/93408895-9f6f9f00-f8d0-11ea-9c2c-e40e4335e90b.JPG"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93408910-aac2ca80-f8d0-11ea-90ff-75d3c01f52b8.JPG"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93408953-c1692180-f8d0-11ea-9ef0-dde5cf3e84e4.JPG"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93408929-b4e4c900-f8d0-11ea-8d57-8013d1d2840a.JPG"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93408943-bc0bd700-f8d0-11ea-9fa9-44cea466bf4b.JPG"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93408956-c332e500-f8d0-11ea-9b59-cd46fe189dd2.JPG"></img>
-
+![캡처73](https://user-images.githubusercontent.com/31124658/93430128-263a7100-f8fd-11ea-9591-522a0581f2d2.JPG)
+![캡처74](https://user-images.githubusercontent.com/31124658/93430133-276b9e00-f8fd-11ea-8c26-1fe17f8bfb1a.JPG)
+![캡처75](https://user-images.githubusercontent.com/31124658/93430135-276b9e00-f8fd-11ea-8489-1b3a0f0fcea8.JPG)
+![캡처76](https://user-images.githubusercontent.com/31124658/93430137-28043480-f8fd-11ea-8418-6f886a2f5661.JPG)
