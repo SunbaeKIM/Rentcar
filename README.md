@@ -44,18 +44,18 @@
 
 ### 적용 후 REST API 의 테스트
 
-- 한정판 빵 수량 등록 : http POST http://localhost:7073/breads breadName=cookie quantity=100
-- 빵 예약 : http POST http://localhost:7071/reservations breadId=2
-- 빵 예약 취소 : http PATCH http://localhost:7071/reservations/1 status=cancellation
-- 예약확인 : http GET http://localhost:7071/reservations
-- 배정확인 : http GET http://localhost:7072/assignments
-- 빵 재고확인 : http GET http://localhost:7073/breads
-- 뷰 확인 : http GET http://localhost:7074/pages
+- 한정판 자동차 수량 등록 : http http://car:8080/cars carName=Sonata quantity=20
+- 자동차 예약 : http POST http://rent:8080/rents carId=1
+- 자동차 예약 취소 : http PATCH http://rent:8080/rents/1 status="RentCancel"
+- 예약확인 : http GET http://rent:8080/rents
+- 배정확인 : http GET http://assignment:8080/assignments
+- 자동차 재고확인 : http GET http://car:8080/cars
+- 뷰 확인 : http GET http://customercenter:8080/customercenters
 
 ## SAGA 패턴
 
-- 예약을 하면, 재고가 감소하고 배정이 되며 예약상태값이 breadSucceed로 변경된다. 
-- 예약을 취소하면 재고가 원복되고 배정은 삭제되며 예약상태값이 breadCanceled로 변경된다. 
+- 예약을 하면, 재고가 감소하고 배정이 되며 예약상태값이 RentAccepted 변경된다. 
+- 예약을 취소하면 재고가 원복되고 배정은 삭제되며 예약상태값이 RentCanceled 변경된다. 
 
 <img src="https://user-images.githubusercontent.com/68719151/93407728-caa4bf00-f8cd-11ea-816d-440d78b99fc2.JPG" width="90%"></img>
 
@@ -77,7 +77,7 @@
 
 ## CQRS
 
-- 고객은 자신의 예약 상태를 뷰(Page) 를 통해 확인할 수 있다. 
+- 고객은 자신의 예약 상태를 뷰(CustomerCenter) 를 통해 확인할 수 있다. 
 <img src="https://user-images.githubusercontent.com/68719151/93408111-b90fe700-f8ce-11ea-8ba6-a39abf52f577.JPG"></img>
 
 
@@ -112,7 +112,7 @@
 ## 오토스케일 아웃
 
  - Mertric 서버 설치 후 오토스케일링 TEST
- - reservation의 deployment.yaml수정 후 배포 
+ - rent의 deployment.yaml수정 후 배포 
 
 <img src="https://user-images.githubusercontent.com/68719151/93408895-9f6f9f00-f8d0-11ea-9c2c-e40e4335e90b.JPG"></img>
 
