@@ -55,7 +55,7 @@
 ## SAGA 패턴
 
 - 예약을 하면, 재고가 감소하고 배정이 되며 예약상태값이 RentAccepted 변경된다. 
-- 예약을 취소하면 재고가 원복되고 배정은 삭제되며 예약상태값이 RentCanceled 변경된다. 
+- 예약을 취소하면 재고가 원복되고 배정은 삭제되며 예약상태값이 RentCancel 변경된다. 
 
 ![캡처](https://user-images.githubusercontent.com/31124658/93425581-42d2ab00-f8f5-11ea-91cb-4c2262b6e7f6.JPG)
 
