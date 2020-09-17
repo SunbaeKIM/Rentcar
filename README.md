@@ -30,7 +30,7 @@
 
 ## 이벤트스토밍
 
-<img src="https://user-images.githubusercontent.com/68719151/93406808-93351300-f8cb-11ea-9a13-ea70247a6042.JPG" width="90%"></img>
+![캡처0](https://user-images.githubusercontent.com/31124658/93425572-4108e780-f8f5-11ea-9191-b88cf2c4e7aa.JPG)
 
 ## 구현
 - 분석/설계 단계에서 도출된 헥사고날 아키텍처에 따라, 각 BC별로 대변되는 마이크로 서비스들을 스프링부트로 구현
@@ -57,23 +57,18 @@
 - 예약을 하면, 재고가 감소하고 배정이 되며 예약상태값이 RentAccepted 변경된다. 
 - 예약을 취소하면 재고가 원복되고 배정은 삭제되며 예약상태값이 RentCanceled 변경된다. 
 
-<img src="https://user-images.githubusercontent.com/68719151/93407728-caa4bf00-f8cd-11ea-816d-440d78b99fc2.JPG" width="90%"></img>
+![캡처](https://user-images.githubusercontent.com/31124658/93425581-42d2ab00-f8f5-11ea-91cb-4c2262b6e7f6.JPG)
 
-<img src="https://user-images.githubusercontent.com/68719151/93407734-cc6e8280-f8cd-11ea-9fb2-a57fdcc2efeb.JPG" width="90%"></img>
+![캡처1](https://user-images.githubusercontent.com/31124658/93425580-42d2ab00-f8f5-11ea-9e5b-12f9da817201.JPG)
 
-<img src="https://user-images.githubusercontent.com/68719151/93407740-ce384600-f8cd-11ea-9949-bd8d5f0e603b.JPG" width="90%"></img>
+![캡처1 1](https://user-images.githubusercontent.com/31124658/93425573-41a17e00-f8f5-11ea-968e-f775a42bb95c.JPG)
 
-<img src="https://user-images.githubusercontent.com/68719151/93407745-d0020980-f8cd-11ea-8750-bc9476cfe069.JPG" width="90%"></img>
+![캡처2](https://user-images.githubusercontent.com/31124658/93425578-423a1480-f8f5-11ea-8ab4-f58aa335ea7c.JPG)
 
-<img src="https://user-images.githubusercontent.com/68719151/93407749-d1cbcd00-f8cd-11ea-975d-9890415029f9.JPG" width="90%"></img>
+![캡처3](https://user-images.githubusercontent.com/31124658/93425577-423a1480-f8f5-11ea-8d3f-87a4975d4a9b.JPG)
 
-<img src="https://user-images.githubusercontent.com/68719151/93407750-d2fcfa00-f8cd-11ea-8b7e-308a9a13b3f4.JPG" width="90%"></img>
+![캡처4](https://user-images.githubusercontent.com/31124658/93425575-41a17e00-f8f5-11ea-9a70-45e7f9fc3243.JPG)
 
-<img src="https://user-images.githubusercontent.com/68719151/93407753-d42e2700-f8cd-11ea-8090-7c92f062303c.JPG" width="90%"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93407761-d7c1ae00-f8cd-11ea-962e-a044f7a501ec.JPG" width="90%"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93407767-dabc9e80-f8cd-11ea-892a-43b35b790ec1.JPG" width="90%"></img>
 
 ## CQRS
 
@@ -85,16 +80,15 @@
 
 - 예약 시 재고확인하는 부분을 FeignClient를 사용하여 동기식 트랜잭션으로 처리 
 
-<img src="https://user-images.githubusercontent.com/68719151/93408247-08eeae00-f8cf-11ea-97d3-3e857b4deac7.JPG"></img>
+![캡처51](https://user-images.githubusercontent.com/31124658/93425571-40705100-f8f5-11ea-888c-61570ff80db8.JPG)
 
-<img src="https://user-images.githubusercontent.com/68719151/93408251-0ab87180-f8cf-11ea-849b-6b3c584f5bd2.JPG"></img>
-
+![캡처52](https://user-images.githubusercontent.com/31124658/93425570-40705100-f8f5-11ea-8aff-ce8e726223e7.JPG)
 
 ## 폴리글랏
 
 - view페이지인 page 서비스에서는 DB hsql를 적용함
 
-<img src="https://user-images.githubusercontent.com/68719151/93408246-0724ea80-f8cf-11ea-81c5-17fd29f96ba5.JPG"></img>
+![캡처53](https://user-images.githubusercontent.com/31124658/93425568-3fd7ba80-f8f5-11ea-8641-da40fbded884.JPG)
 
 ## 서킷 브레이킹
 
