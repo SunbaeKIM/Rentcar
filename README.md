@@ -73,22 +73,24 @@
 ## CQRS
 
 - 고객은 자신의 예약 상태를 뷰(CustomerCenter) 를 통해 확인할 수 있다. 
-<img src="https://user-images.githubusercontent.com/68719151/93408111-b90fe700-f8ce-11ea-8ba6-a39abf52f577.JPG"></img>
+![캡처51](https://user-images.githubusercontent.com/31124658/93425571-40705100-f8f5-11ea-888c-61570ff80db8.JPG)
 
 
 ## 동기식 호출 
 
 - 예약 시 재고확인하는 부분을 FeignClient를 사용하여 동기식 트랜잭션으로 처리 
 
-![캡처51](https://user-images.githubusercontent.com/31124658/93425571-40705100-f8f5-11ea-888c-61570ff80db8.JPG)
-
 ![캡처52](https://user-images.githubusercontent.com/31124658/93425570-40705100-f8f5-11ea-8aff-ce8e726223e7.JPG)
+
+![캡처53](https://user-images.githubusercontent.com/31124658/93425568-3fd7ba80-f8f5-11ea-8641-da40fbded884.JPG)
+
 
 ## 폴리글랏
 
 - view페이지인 page 서비스에서는 DB hsql를 적용함
 
-![캡처53](https://user-images.githubusercontent.com/31124658/93425568-3fd7ba80-f8f5-11ea-8641-da40fbded884.JPG)
+![캡처54](https://user-images.githubusercontent.com/31124658/93425567-3f3f2400-f8f5-11ea-80ec-9a487b35b3b6.JPG)
+
 
 ## 서킷 브레이킹
 
