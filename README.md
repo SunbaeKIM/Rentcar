@@ -72,7 +72,7 @@
 
 ## CQRS
 
-- 고객은 자신의 예약 상태를 뷰(CustomerCenter) 를 통해 확인할 수 있다. 
+- 고객은 자신의 예약 상태를 뷰를 통해 확인할 수 있다. 
 ![캡처51](https://user-images.githubusercontent.com/31124658/93425571-40705100-f8f5-11ea-888c-61570ff80db8.JPG)
 
 
