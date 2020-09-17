@@ -44,7 +44,7 @@
 
 ### 적용 후 REST API 의 테스트
 
-- 한정판 자동차 수량 등록 : http http://car:8080/cars carName=Sonata quantity=20
+- 자동차 수량 등록 : http http://car:8080/cars carName=Sonata quantity=20
 - 자동차 예약 : http POST http://rent:8080/rents carId=1
 - 자동차 예약 취소 : http PATCH http://rent:8080/rents/1 status="RentCancel"
 - 예약확인 : http GET http://rent:8080/rents
